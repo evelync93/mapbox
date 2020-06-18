@@ -1,3 +1,5 @@
+var MapboxGeocoder = require("@mapbox/mapbox-gl-geocoder");
+
 const ACCESS_TOKEN =
   "pk.eyJ1IjoiZXZjaGVuIiwiYSI6ImNrYmppMG9pZzBsc2UycnBkZ2Vzanl3aWkifQ.fNIsmkaJ55MEPkEz-rGShg";
 const MAPBOX_STYLE = "mapbox://styles/evchen/ckbjkg8x10m8i1itfugliru9p/draft";
