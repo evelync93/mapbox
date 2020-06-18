@@ -28,3 +28,11 @@ var marker = new mapboxgl.Marker()
 var marker = new mapboxgl.Marker()
   .setLngLat([-118.243683, 34.052235])
   .addTo(map);
+
+//directions
+map.addControl(
+  new MapboxDirections({
+    accessToken: mapboxgl.accessToken,
+  }),
+  "top-left"
+);
